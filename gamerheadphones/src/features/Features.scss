@@ -1,0 +1,329 @@
+/* .features{
+    background-color: black;
+    
+    width:100%;
+    
+
+    .featureWrapper{
+        margin: 0 50px 50px 50px;
+        height:fit-content;
+
+        @media only screen and (max-width: 1088px){
+            margin: 0;
+        }
+
+        .layer{
+            width: 100%;
+            padding-top: 100px;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: auto auto auto;
+            align-items: center;
+            gap: 20px;
+            row-gap: 70px;
+            
+            
+            @media only screen and (max-width: 1088px){
+
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                gap:0;
+                row-gap: 50px;
+            }
+
+            .bassText{
+                @media only screen and (max-width: 1088px){
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   justify-items: center;
+                   justify-self: center;
+                   text-align: center;
+                   width: fit-content;
+                }
+
+                .mod{
+                    text-align: right;
+
+                    @media only screen and (max-width: 1088px){
+                        text-align: center;
+                        font-size: 40px;
+                        width: 100%;
+                    }
+
+                }
+                
+                .mod2{
+                    text-align: right;
+
+                    @media only screen and (max-width: 1088px){
+                        text-align: center;
+                    }
+                }
+                
+            }
+
+
+            .imageWrapper{
+                @media only screen and (max-width: 1088px){
+                    display: flex;
+                    
+                }
+
+                img{
+                    height: 360px;
+
+                    @media only screen and (max-width: 1088px){
+                        height: 290px;
+                        justify-content: center;
+                        justify-items: center;
+                        justify-self: center;
+                    }
+
+                }
+            }
+
+            
+            .imageWrapper2{
+
+                img{
+                    height: 360px;
+                    @media only screen and (max-width: 1088px){
+                        height: 300px;
+                        
+                    }
+                }
+            }
+            .imageWrapper3{
+                img{
+                    height: 460px;
+                    @media only screen and (max-width: 1088px){
+                        height: 300px;
+                    }
+                }
+            }
+
+            .gamingText{
+
+                @media only screen and (max-width: 1088px){
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    justify-items: center;
+                    justify-self: center;
+                    text-align: center;
+                    
+                 }
+                .mod3{
+                    text-align: left;
+                    margin-left: 50px;
+
+                    @media only screen and (max-width: 1088px){
+                        text-align: center;
+                        margin:0;
+                    }
+                    
+                }
+                .mod4{
+                    text-align: left;
+                    margin-left: 50px;
+
+                    @media only screen and (max-width: 1088px){
+                        text-align: center;
+                        margin: 0;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+.titlet{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-right: 30px;
+    
+    
+}
+.subti{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin-right: 20px;
+    width:fit-content;
+
+    @media only screen and (max-width: 1088px){
+        margin-right: 0;
+    }
+}
+
+ */
+
+ //-----------------------------------------------------------------
+
+ .features{
+    height: fit-content;
+    width: 100%;
+
+    .featureWrapper{
+
+        height: 100%;
+        width:100%;
+        padding: 100px;
+        @media only screen and (max-width: 1088px){
+
+                    
+            padding: 0;
+            
+        }
+
+        .layer{
+            width:100%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            row-gap: 80px;
+            
+
+            @media only screen and (max-width: 1088px){
+
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                row-gap: 0px;
+                column-gap: 0px;
+                justify-items: center;
+            }
+
+            .bassText{
+                display: flex;
+                color:white;
+                flex-direction: column;
+                justify-content: center;
+                width:50%;
+
+                .titlet{
+                    text-align: left;
+                    
+                }
+                
+                .mod{
+                    font-size: 3rem;
+                    @media only screen and (max-width: 1088px){
+
+                    
+                        text-align: center;
+                        
+                    }
+                    @media only screen and (max-width: 425px){
+                        margin-right: 40px;
+                       
+                    }
+                }
+
+                .mod2{
+                    font-size: 1.5rem;
+                    text-align: left;
+                    width:400px;
+                    color: rgb(179, 179, 179);
+                    @media only screen and (max-width: 1088px){
+
+                        width:fit-content;
+                        text-align: center;
+                        border-bottom: 0.5px solid white;
+                    }
+                    @media only screen and (max-width: 425px){
+                        margin-right: 40px;
+                       
+                    }
+                }
+            }
+
+            .imageWrapper{
+                width: fit-content;
+                img{
+                    width:350px;
+                }
+            }
+
+            .imageWrapper2{
+                width: fit-content;
+                    justify-self: baseline;
+
+                    @media only screen and (max-width: 1088px){
+
+                        justify-self: center;
+                        
+                    }
+                    
+                img{
+                    width:450px;
+                    
+                }
+            }
+
+            .gamingText{
+
+                display: flex;
+                color:white;
+                flex-direction: column;
+                justify-content: center;
+                width:50%;
+
+                @media only screen and (max-width: 1088px){
+
+                    grid-row-start: 3;
+                    grid-row-end:4;
+                    text-align: center;
+                    
+                }
+
+                .titlet{
+                    text-align: left;
+                    
+                }
+                
+                .mod3{
+                    font-size: 3rem;
+                    text-align: left;
+
+                    @media only screen and (max-width: 1088px){
+
+                    
+                        text-align: center;
+                        
+                    }
+
+                    @media only screen and (max-width: 425px){
+                        margin-right: 40px;
+                       
+                    }
+                }
+
+                .mod4{
+                    font-size: 1.5rem;
+                    text-align: left;
+                    width:400px;
+                    color: rgb(179, 179, 179);
+                    @media only screen and (max-width: 1088px){
+
+                        width:fit-content;
+                        text-align: center;
+                        border-bottom: 0.5px solid white;
+                        
+                    }
+
+                    @media only screen and (max-width: 425px){
+                        margin-right: 40px;
+                       
+                    }
+                    
+                }
+            }
+        }
+    }
+
+ }

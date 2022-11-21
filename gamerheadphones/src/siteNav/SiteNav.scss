@@ -1,0 +1,49 @@
+.siteNav{
+    height:fit-content;
+
+    .siteNavWrapper{
+        display:flex;
+        padding: 50px;
+        justify-content: center;
+
+        @media only screen and (max-width: 1088px){
+            display:grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+          }
+
+        .subItems{
+            margin-right: 100px;
+
+            @media only screen and (max-width: 1088px){
+                margin-right: 0;
+              }
+            
+        }
+
+        .col{
+            display:flex;
+            flex-direction: column;
+            list-style: none;
+            text-decoration-style: none;
+        }
+        
+        .subs{
+
+            &:hover{
+                text-decoration:underline white ;
+                cursor: pointer;
+                
+            }
+        }
+    }
+}
+.categ{
+    color:white;
+    text-align: center;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.main{
+    font-weight: bold;
+}

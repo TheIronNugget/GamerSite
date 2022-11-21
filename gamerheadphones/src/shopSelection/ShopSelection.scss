@@ -1,0 +1,44 @@
+/* .shopSelection{
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    height: fit-content;
+    .shopSelectionWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+
+        .grd{
+            border: 1px solid white;
+            background-color: rgba(0, 0, 0, 0.416);
+            display: flex;
+            height: 300px;
+                
+            .txtbx{
+                position:absolute;
+            }
+               
+            
+        }
+        .grd-1{
+
+            background-image: url('../assets/earbuds.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .grd-2{
+
+            background-image: url('../assets/headphoneBundle.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+
+    }
+} */
+
+
